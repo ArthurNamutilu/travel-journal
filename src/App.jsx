@@ -7,7 +7,8 @@ function App() {
     return (
       <Entry
         key={destination.id}
-        destination={destination} //passing object as prop
+        destination={destination}
+        // {...destination}  //passing object as prop
         // img={destination.img}
         // title={destination.title}
         // country={destination.country}
